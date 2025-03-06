@@ -1,17 +1,63 @@
-<ion-header [translucent]="true">
+<ion-header collapse="fade">
   <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
+    <ion-title>Acerca de CV App</ion-title>
   </ion-toolbar>
 </ion-header>
+<ion-content [scrollY]="true">
+  <div class="ion-content-scroll-host ion-padding">
+    <ion-card>
+      <img alt="Silhouette of mountains" src="../../assets/iconos_cv_lces_10.jpg" />
+      <ion-card-header>
+        <ion-card-title class="ion-text-center">CV APP</ion-card-title>
+        <ion-card-subtitle>Información sobre la Aplicación: </ion-card-subtitle>
+      </ion-card-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+      <ion-card-content>
+        <p>Version: 1.0.0</p><br>
+        <p> ¡Bienvenido a mi CV digital! Esta aplicación fue creada para mostrar mis habilidades y experiencia en el
+          desarrollo de aplicaciones móviles utilizando Ionic Framework.
+        </p><br>
+        <p>Esta aplicación tiene como objetivo principal facilitar la visualización de mi experiencia profesional,
+          habilidades y proyectos a posibles empleadores y contactos profesionales.</p>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+      <img alt="Silhouette of mountains" src="../../assets/3.png" />
+      <ion-card-header>
+        <ion-card-title>Información sobre el desarrollador:</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        <p>Creador: Luis Javier Castro Gomez</p>
+        <p>Profesion: Ingenieria en Informatica</p>
+        <p>Contacto: luisjaviercastrogomez245&#64;gmail.com</p>
+        <p>Desarrollada con Ionic y Angular.</p>
+
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+      <img alt="Silhouette of mountains" src="../../assets/logo@2x.png" />
+      <ion-card-header>
+        <ion-card-title>Detalles Tecnicos: </ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        <p>Tecnologías: Desarrollada con Ionic Framework, Angular y Capacitor para su despliegue en plataformas iOS y
+          Android. </p>
+        <p>Plataformas: Compatible con iOS y Android.</p>
+      </ion-card-content>
+    </ion-card>
+
+    <h5>Información adicional: </h5>
+    <p>"Puedes consultar nuestra política de privacidad para entender cómo manejamos tus datos:
+      www.ejemplo.com/privacidad"</p>
+    <p>Al utilizar esta aplicación, aceptas nuestros términos de uso: www.ejemplo.com/terminos</p>
+    <p>Agradezco a Ionic Framework por proporcionar las herramientas necesarias para el desarrollo de esta aplicación.
+      También agradezco a los miembros de la comunidad de Angular por su apoyo y recursos.</p>
+
+
+    <p class="ion-text-center">&copy; Luis Javier Castro Gomez 2024</p>
+
+  </div>
 </ion-content>
